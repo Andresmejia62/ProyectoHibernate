@@ -12,7 +12,7 @@
         <properties>
             <!-- Propiedades de Postgresql -->
             <property name="jakarta.persistence.jdbc.driver" value = "org.postgresql.Driver"/>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/bdbiblioteca"/>
             <property name="jakarta.persistence.jdbc.user" value="andresmejia"/>
             <property name="jakarta.persistence.jdbc.password" value="amejia62"/>
 
