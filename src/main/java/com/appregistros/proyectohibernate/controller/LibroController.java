@@ -208,4 +208,14 @@ public class LibroController {
         alert.setContentText(mensaje);
         alert.showAndWait();
     }
+
+    private Libro obtenerLibroDesdeCampos(){
+        Libro libro = new Libro();
+        libro.setTitulo(txtTitulo.getText().trim());
+        libro.setAutor(txtAutor.getText().trim());
+        libro.setAnio_publicacion(Integer.parseInt(txtAnio.getText().trim()));
+        libro.setPrecio(Double.parseDouble(txtPrecio.getText().trim()));
+        return libro;
+
+    }
 }
